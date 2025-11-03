@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   camera: ^0.10.5+5
+  google_fonts: ^6.2.1
   flutter:
     sdk: flutter
   # The following adds the Cupertino Icons font to your application.
@@ -61,3 +62,9 @@ flutter:
     - assets/scand.png
     - assets/modern.png
     - assets/pandi.png
+    - assets/profile4.png
+    - assets/r1.png
+    - assets/r2.png
+    - assets/r3.png
+    - assets/r4.png
+    - assets/Frame.png

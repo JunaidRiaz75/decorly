@@ -193,16 +193,24 @@ class _CameraScreenState extends State<CameraScreen> {
                           );
                         }
                       },
+
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
-                        side: BorderSide(color: Color(0xFFD2691E)),
+                        side: const BorderSide(color: Color(0xFFD2691E)),
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(
+                            8,
+                          ), // square corners
                         ),
+                        fixedSize: const Size(
+                          35,
+                          40,
+                        ), // width, height (adjust as needed)
                       ),
-                      child: Text(
-                        'Choose from Gallery',
-                        style: TextStyle(color: Color(0xFFD2691E)),
+
+                      child: const Text(
+                        'Gallery',
+                        style: TextStyle(color: Color(0xFFD2691E), fontSize: 8),
                       ),
                     ),
                   ],
