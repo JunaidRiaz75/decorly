@@ -16,9 +16,6 @@ class GetStartedPage extends StatelessWidget {
             'assets/home.png', // Replace with your image path
             fit: BoxFit.cover,
           ),
-          Container(
-            color: decorlyPrimary.withOpacity(0.3), // Optional overlay
-          ),
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
